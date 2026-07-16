@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Examen de Ascenso · Banco de Preguntas D.D.E.P.</title>
+<meta name="description" content="Simulador de examen para el Ascenso de Categoría Docente — Banco de preguntas del Ministerio de Educación, Pando.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Fondo topográfico decorativo -->
+<div class="contour-field" aria-hidden="true">
+  <svg viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+    <g class="contour-lines">
+      <ellipse cx="220" cy="160" rx="420" ry="300"></ellipse>
+      <ellipse cx="220" cy="160" rx="340" ry="240"></ellipse>
+      <ellipse cx="220" cy="160" rx="260" ry="180"></ellipse>
+      <ellipse cx="220" cy="160" rx="180" ry="120"></ellipse>
+      <ellipse cx="1020" cy="760" rx="460" ry="320"></ellipse>
+      <ellipse cx="1020" cy="760" rx="370" ry="250"></ellipse>
+      <ellipse cx="1020" cy="760" rx="280" ry="180"></ellipse>
+      <ellipse cx="1020" cy="760" rx="190" ry="110"></ellipse>
+    </g>
+  </svg>
+</div>
+
+<div class="app-shell">
+
+  <header class="site-head">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" class="ring-0"/><circle cx="24" cy="24" r="15" class="ring-1"/><circle cx="24" cy="24" r="8" class="ring-2"/></svg>
+      </span>
+      <div class="brand-text">
+        <p class="eyebrow">ELITE DIGITAL · Pando · Bolivia</p>
+        <h1>Examen de Ascenso de&nbsp;Categoría</h1>
+      </div>
+    </div>
+    <p class="brand-sub">Banco de preguntas del Ministerio de Educación, en formato de práctica autoevaluada. Cuatro intentos, resultados por ramo, y un modo de estudio libre.</p>
+  </header>
+
+  <main id="view-root">
+    <!-- Las vistas se inyectan aquí vía JavaScript -->
+  </main>
+
+  <footer class="site-foot">
+    <p>Herramienta de estudio independiente · Contenido basado en el banco de preguntas oficial · Hecho para prepararte con calma.</p>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
